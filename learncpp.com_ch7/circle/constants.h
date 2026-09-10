@@ -1,0 +1,1 @@
+constexpr double constants::pi;

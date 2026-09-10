@@ -1,0 +1,20 @@
+#include <iostream>
+
+int main (int argc, char *argv[]) {
+
+  int counter{5};
+
+  while (counter >= 0) {
+
+    int innerCounter{counter};
+
+    while (innerCounter >= 0) {
+      std::cout << innerCounter << ' ';
+      --innerCounter;
+    }
+
+  --counter;
+
+  }
+  return 0;
+}
